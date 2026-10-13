@@ -503,7 +503,8 @@ main { padding-top: var(--header-h); }
 .archive-link:hover .icon-shift { transform: translateX(6px); }
 
 /* ---------- Project cards ---------- */
-.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+/* 프로젝트 4개를 2×2로 균형 있게 배치 */
+.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
 
 .project-card {
   display: flex;
