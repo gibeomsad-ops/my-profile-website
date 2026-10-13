@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김기범 | Portfolio</title>
+  <meta name="description" content="데이터 분석과 인공지능에 관심이 있는 연구자 김기범의 개인 포트폴리오">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">
+        <span class="logo-main">GIBEOM</span><span class="logo-sub">.PORTFOLIO</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="주요 메뉴">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta-mobile btn btn-primary" href="#contact">Get in Touch</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary btn-sm header-cta" href="#contact">Get in Touch</a>
+        <a class="avatar" href="#about" aria-label="About 섹션으로 이동">
+          <span class="material-symbols-outlined">person</span>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <div class="hero-wrap" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <section class="container hero">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="ping-dot"><span></span><span></span></span>
+            <span>OPEN TO RESEARCH COLLABORATION • 2026</span>
+          </div>
+
+          <div class="persona">
+            <span class="persona-name">김기범 · Gibeom Kim</span>
+            <span class="dot-sep"></span>
+            <span class="persona-role">데이터 분석 &amp; AI 연구자</span>
+          </div>
+
+          <h1 class="hero-title">
+            데이터로 질문하고<br>
+            <span class="gradient-text">인공지능</span>으로 답을 찾습니다.
+          </h1>
+
+          <p class="hero-desc">
+            데이터 분석과 인공지능에 관심이 있는 연구자입니다. 흩어진 데이터에서 의미 있는 패턴을 발견하고, 머신러닝과 생성형 AI로 실제 문제를 해결하는 방법을 탐구합니다.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary btn-lg group" href="#projects">
+              <span>프로젝트 보러가기</span>
+              <span class="material-symbols-outlined icon-shift">arrow_forward</span>
+            </a>
+            <a class="btn btn-light btn-lg" href="#contact">
+              <span class="material-symbols-outlined text-primary">chat_bubble</span>
+              <span>연락하기</span>
+            </a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-label">Focus</span>
+              <span class="stat-value">3 Areas</span>
+              <span class="stat-sub">Data · ML · GenAI</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Projects</span>
+              <span class="stat-value">3 Works</span>
+              <span class="stat-sub">Analysis &amp; AI Apps</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Main Tool</span>
+              <span class="stat-value">Python</span>
+              <span class="stat-sub">Data Science Stack</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-glow" aria-hidden="true"></div>
+          <div class="portrait">
+            <img src="images/KakaoTalk_Photo_2026-03-25-14-21-21-min.jpeg" alt="김기범 프로필 사진">
+            <div class="portrait-shade"></div>
+          </div>
+
+          <div class="float-badge float-badge-top">
+            <span class="ping-dot ping-dot-lg"><span></span><span></span></span>
+            <div class="float-text">
+              <span class="float-label">Status</span>
+              <span class="float-title">Open to collaboration</span>
+            </div>
+          </div>
+
+          <div class="float-badge float-badge-bottom">
+            <div class="float-icon"><span class="material-symbols-outlined">insights</span></div>
+            <div class="float-text">
+              <span class="float-title float-title-bold">Data &amp; AI Research</span>
+              <span class="float-meta">Analytics · ML · GenAI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ABOUT: CORE EXPERTISE RIBBON -->
+    <section class="expertise" id="about">
+      <div class="container expertise-inner">
+        <div class="expertise-title">
+          <span class="material-symbols-outlined text-primary">stacks</span>
+          <span>CORE EXPERTISE</span>
+        </div>
+        <div class="chip-list">
+          <span class="chip chip-accent">데이터 분석</span>
+          <span class="chip chip-accent">머신러닝</span>
+          <span class="chip chip-accent">생성형 AI</span>
+          <span class="chip">Python</span>
+          <span class="chip">Pandas &amp; NumPy</span>
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">PyTorch</span>
+          <span class="chip">LLM &amp; RAG</span>
+          <span class="chip">Data Visualization</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="container section" id="projects">
+      <div class="section-head">
+        <div class="section-head-text">
+          <div class="eyebrow"><span>SELECTED WORK</span><span class="eyebrow-line"></span></div>
+          <h2 class="section-title">주요 프로젝트</h2>
+          <p class="section-desc">데이터 분석과 인공지능 기술을 활용해 실제 데이터에서 인사이트를 찾고 서비스를 구현한 대표 작업물입니다.</p>
+        </div>
+        <a class="archive-link group" href="https://github.com/example?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <span>모든 아카이브 살펴보기</span>
+          <span class="material-symbols-outlined icon-shift">east</span>
+        </a>
+      </div>
+
+      <div class="project-grid">
+        <!-- Project 1: 뉴스 데이터 분석 -->
+        <article class="project-card" data-href="https://github.com/example/news-data-analysis" tabindex="0" role="link" aria-label="뉴스 데이터 분석 프로젝트 자세히 보기">
+          <div class="project-media project-media-icon">
+            <div class="media-icon-box"><span class="material-symbols-outlined">newspaper</span></div>
+            <span class="media-tag">Text Mining</span>
+          </div>
+          <div class="project-body">
+            <div class="project-main">
+              <div class="project-meta">
+                <span>2025 • Data Analysis</span>
+                <span class="meta-dot"></span>
+                <span class="meta-highlight">Topic Modeling</span>
+              </div>
+              <h3 class="project-title">뉴스 데이터 분석</h3>
+              <p class="project-desc">온라인 뉴스 기사를 수집·전처리하고 키워드 빈도 분석과 토픽 모델링으로 시기별 주요 이슈의 흐름을 시각화했습니다.</p>
+            </div>
+            <div class="project-foot">
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">KoNLPy</span>
+                <span class="tag">LDA</span>
+              </div>
+              <div class="project-links">
+                <a class="link-primary" href="https://github.com/example/news-data-analysis" target="_blank" rel="noopener noreferrer">
+                  <span>자세히 보기 / 분석 리포트</span>
+                  <span class="material-symbols-outlined">arrow_outward</span>
+                </a>
+                <a class="link-secondary" href="https://github.com/example/news-data-analysis" target="_blank" rel="noopener noreferrer">
+                  <span class="material-symbols-outlined">code</span>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: AI 챗봇 개발 -->
+        <article class="project-card" data-href="https://github.com/example/ai-chatbot" tabindex="0" role="link" aria-label="AI 챗봇 개발 프로젝트 자세히 보기">
+          <div class="project-media project-media-icon">
+            <div class="media-icon-box"><span class="material-symbols-outlined">smart_toy</span></div>
+            <span class="media-tag">Generative AI</span>
+          </div>
+          <div class="project-body">
+            <div class="project-main">
+              <div class="project-meta">
+                <span>2025 • AI Application</span>
+                <span class="meta-dot"></span>
+                <span class="meta-highlight">LLM · RAG</span>
+              </div>
+              <h3 class="project-title">AI 챗봇 개발</h3>
+              <p class="project-desc">대규모 언어 모델(LLM)과 검색 증강 생성(RAG)을 결합해 문서 기반 질문에 정확하게 답변하는 대화형 AI 챗봇을 개발했습니다.</p>
+            </div>
+            <div class="project-foot">
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">LLM API</span>
+                <span class="tag">LangChain</span>
+              </div>
+              <div class="project-links">
+                <a class="link-primary" href="https://github.com/example/ai-chatbot" target="_blank" rel="noopener noreferrer">
+                  <span>자세히 보기 / 개발 노트</span>
+                  <span class="material-symbols-outlined">arrow_outward</span>
+                </a>
+                <a class="link-secondary" href="https://example.com/ai-chatbot/demo" target="_blank" rel="noopener noreferrer">
+                  <span class="material-symbols-outlined">open_in_new</span>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: 소셜미디어 분석 -->
+        <article class="project-card" data-href="https://github.com/example/social-media-analysis" tabindex="0" role="link" aria-label="소셜미디어 분석 프로젝트 자세히 보기">
+          <div class="project-media project-media-icon">
+            <div class="media-icon-box"><span class="material-symbols-outlined">forum</span></div>
+            <span class="media-tag">Social Analytics</span>
+          </div>
+          <div class="project-body">
+            <div class="project-main">
+              <div class="project-meta">
+                <span>2026 • Machine Learning</span>
+                <span class="meta-dot"></span>
+                <span class="meta-highlight">Sentiment Analysis</span>
+              </div>
+              <h3 class="project-title">소셜미디어 분석</h3>
+              <p class="project-desc">소셜미디어 게시글과 댓글 데이터를 수집해 머신러닝 기반 감성 분류와 네트워크 분석으로 여론의 반응과 확산 구조를 파악했습니다.</p>
+            </div>
+            <div class="project-foot">
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">NetworkX</span>
+              </div>
+              <div class="project-links">
+                <a class="link-primary" href="https://github.com/example/social-media-analysis" target="_blank" rel="noopener noreferrer">
+                  <span>자세히 보기 / 분석 리포트</span>
+                  <span class="material-symbols-outlined">arrow_outward</span>
+                </a>
+                <a class="link-secondary" href="https://github.com/example/social-media-analysis" target="_blank" rel="noopener noreferrer">
+                  <span class="material-symbols-outlined">code</span>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESEARCH APPROACH -->
+    <section class="philosophy">
+      <div class="container philosophy-grid">
+        <div class="philosophy-text">
+          <div class="eyebrow"><span>RESEARCH APPROACH</span><span class="eyebrow-line"></span></div>
+          <h2 class="section-title">데이터에 근거한 질문과<br>재현 가능한 분석</h2>
+          <p class="philosophy-desc">
+            좋은 연구는 좋은 질문에서 시작한다고 믿습니다. 데이터를 통해 문제를 정의하고, 적절한 분석 방법과 모델을 선택해 누구나 검증할 수 있는 결과로 정리하는 과정을 지향합니다.
+          </p>
+          <ul class="principles">
+            <li>
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <div>
+                <h4>데이터 기반의 문제 정의</h4>
+                <p>추측이 아닌 탐색적 데이터 분석을 통해 핵심 질문과 가설을 세웁니다.</p>
+              </div>
+            </li>
+            <li>
+              <span class="material-symbols-outlined text-primary">check_circle</span>
+              <div>
+                <h4>재현 가능한 연구 코드</h4>
+                <p>전처리부터 모델링까지 과정을 체계적으로 기록해 누구나 결과를 재현할 수 있도록 합니다.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="value-grid">
+          <div class="value-card">
+            <span class="material-symbols-outlined value-icon">query_stats</span>
+            <div>
+              <span class="value-num">Data</span>
+              <p class="value-title">데이터 분석</p>
+              <p class="value-desc">수집·정제·시각화를 통해 데이터 속 패턴과 인사이트를 발견합니다.</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <span class="material-symbols-outlined value-icon">model_training</span>
+            <div>
+              <span class="value-num">ML</span>
+              <p class="value-title">머신러닝</p>
+              <p class="value-desc">문제에 맞는 모델을 설계·학습하고 성능을 객관적으로 평가합니다.</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <span class="material-symbols-outlined value-icon">auto_awesome</span>
+            <div>
+              <span class="value-num">GenAI</span>
+              <p class="value-title">생성형 AI</p>
+              <p class="value-desc">LLM을 활용해 정보 탐색과 업무를 돕는 AI 서비스를 구현합니다.</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <span class="material-symbols-outlined value-icon">lightbulb</span>
+            <div>
+              <span class="value-num">Insight</span>
+              <p class="value-title">결과 해석과 공유</p>
+              <p class="value-desc">분석 결과를 누구나 이해할 수 있는 언어와 시각 자료로 전달합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container section" id="contact">
+      <div class="cta-card">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <div class="cta-content">
+          <div class="cta-pill">
+            <span class="cta-pill-dot"></span>
+            <span>LET'S RESEARCH TOGETHER</span>
+          </div>
+          <h2 class="cta-title">연구 협업이나 프로젝트 제안이 있으신가요?</h2>
+          <p class="cta-desc">
+            데이터 분석, 머신러닝, 생성형 AI와 관련된 연구나 프로젝트라면 언제든 편하게 연락 주세요. 함께 고민하고 배우는 기회를 환영합니다.
+          </p>
+          <div class="cta-buttons">
+            <a class="btn btn-white" href="mailto:gibeomsad@gmail.com?subject=%5B%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%5D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EB%AC%B8%EC%9D%98">
+              <span class="material-symbols-outlined">mail</span>
+              <span>이메일 보내기 (gibeomsad@gmail.com)</span>
+            </a>
+            <button class="btn btn-glass" id="btn-copy-email" type="button" data-email="gibeomsad@gmail.com">
+              <span class="material-symbols-outlined">content_copy</span>
+              <span id="copy-text">이메일 복사하기</span>
+            </button>
+          </div>
+          <div class="cta-notes">
+            <span>• 응답 평균 24시간 이내</span>
+            <span>• 데이터·AI 연구 협업 환영</span>
+            <span>• 온라인/오프라인 미팅 가능</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="footer-name">GIBEOM.PORTFOLIO</span>
+          <span class="footer-year">© 2026</span>
+        </div>
+        <p>Exploring data analysis, machine learning &amp; generative AI.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/example" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined">code</span><span>GitHub</span></a>
+        <a href="https://www.linkedin.com/in/example" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined">work</span><span>LinkedIn</span></a>
+        <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined">school</span><span>Scholar</span></a>
+        <a href="mailto:gibeomsad@gmail.com"><span class="material-symbols-outlined">mail</span><span>Email</span></a>
+      </div>
+      <a class="back-top" href="#home">
+        <span>Back to top</span>
+        <span class="material-symbols-outlined">arrow_upward</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

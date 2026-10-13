@@ -1,0 +1,433 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>Portfolio Shell</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-primary":"#b4c5ff","on-tertiary-fixed-variant":"#3a4858","on-secondary":"#ffffff","surface-dim":"#d2d9f4","outline-variant":"#c3c6d7","primary-fixed":"#dbe1ff","tertiary":"#485767","primary":"#004ac6","surface-variant":"#dae2fd","on-secondary-container":"#fffbff","on-tertiary":"#ffffff","on-primary":"#ffffff","secondary-container":"#4069f2","background":"#faf8ff","on-secondary-fixed":"#001551","surface-container-low":"#f2f3ff","primary-container":"#2563eb","on-tertiary-container":"#e9f2ff","inverse-on-surface":"#eef0ff","surface-bright":"#faf8ff","error":"#ba1a1a","error-container":"#ffdad6","outline":"#737686","surface-container-high":"#e2e7ff","surface":"#faf8ff","on-error-container":"#93000a","on-tertiary-fixed":"#0e1d2b","on-secondary-fixed-variant":"#0039b5","tertiary-container":"#606f80","on-primary-fixed":"#00174b","on-primary-fixed-variant":"#003ea8","on-primary-container":"#eeefff","tertiary-fixed":"#d5e4f8","on-surface-variant":"#434655","surface-tint":"#0053db","surface-container":"#eaedff","primary-fixed-dim":"#b4c5ff","on-error":"#ffffff","secondary":"#1d4ed8","on-surface":"#131b2e","surface-container-highest":"#dae2fd","tertiary-fixed-dim":"#b9c8db","surface-container-lowest":"#ffffff","on-background":"#131b2e","secondary-fixed-dim":"#b7c4ff","inverse-surface":"#283044","secondary-fixed":"#dce1ff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter-mobile":"1rem","space-lg":"1.5rem",margin:"3rem","space-xl":"2.5rem","space-md":"1rem","space-xs":"0.25rem",gutter:"1.5rem","space-sm":"0.5rem","margin-mobile":"1.25rem"},fontFamily:{"headline-lg-mobile":["Inter"],"display-hero-mobile":["Inter"],"body-md":["Inter"],"headline-sm":["Inter"],"display-hero":["Inter"],"label-sm":["JetBrains Mono"],"label-md":["JetBrains Mono"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-md":["Inter"],"headline-lg":["Inter"]},fontSize:{"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"600"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"700"}],"body-md":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"700"}],"label-sm":["11px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"500"}],"label-md":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"500"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"400"}],"body-sm":["14px",{lineHeight:"20px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between"><a class="flex items-center gap-space-xs" data-path="home" href="#"><span class="font-label-md text-label-md text-primary tracking-wider uppercase font-semibold">ALEX</span><span class="font-label-md text-label-md text-outline tracking-widest uppercase">.PORTFOLIO</span></a><nav class="hidden md:flex items-center gap-space-sm" data-active-classes="bg-surface-container text-primary font-medium rounded-lg"><a aria-current="page" class="px-space-md py-space-xs transition-all bg-surface-container text-primary font-medium rounded-lg" data-path="home" href="#">Home</a><a class="px-space-md py-space-xs rounded-lg text-on-surface-variant font-body-sm text-body-sm hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="about" href="#">About</a><a class="px-space-md py-space-xs rounded-lg text-on-surface-variant font-body-sm text-body-sm hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="projects" href="#">Projects</a><a class="px-space-md py-space-xs rounded-lg text-on-surface-variant font-body-sm text-body-sm hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-xl bg-primary-container text-on-primary font-body-sm text-body-sm hover:bg-secondary hover:text-on-secondary shadow-[0_4px_14px_0_rgba(37,99,235,0.25)] transition-all" data-path="contact" href="#">Get in Touch</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Decorative Blur Gradient Elements (Contained) -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[340px] bg-gradient-to-tr from-primary-fixed/40 via-surface-variant/30 to-transparent blur-3xl pointer-events-none -z-10 rounded-full"></div>
+<!-- HERO SECTION -->
+<section class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin pt-space-xl pb-16 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-x-12 items-center">
+<!-- Left Hero Content (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-8">
+  <!-- Status Pill Badge -->
+  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container shadow-sm hover:shadow transition-all duration-300">
+    <span class="relative flex h-2.5 w-2.5">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
+    </span>
+    <span class="font-label-sm text-[13px] text-primary font-semibold tracking-wide">
+      AVAILABLE FOR NEW PROJECTS • Q3 2025
+    </span>
+  </div>
+
+  <!-- Persona Introduction -->
+  <div class="flex flex-wrap items-center gap-3">
+    <span class="font-label-md text-[15px] text-primary font-bold uppercase tracking-wider">Alex Minseo Kim</span>
+    <span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
+    <span class="font-body-md text-[16px] text-on-surface-variant font-medium">소프트웨어 엔지니어 &amp; UI/UX 빌더</span>
+  </div>
+
+  <!-- Main Display Headline with Enlarged Typography -->
+  <h1 class="font-display-hero text-[44px] md:text-[56px] text-on-surface tracking-tight leading-[1.15] font-bold">
+    더 나은 사용자 경험과<br>
+    <span class="bg-gradient-to-r from-primary via-primary-container to-secondary-container bg-clip-text text-transparent">
+      가치 있는 소프트웨어
+    </span>를 만듭니다.
+  </h1>
+
+  <!-- Enlarged Subtitle Description -->
+  <p class="font-body-lg text-[18px] md:text-[20px] text-on-surface-variant max-w-2xl leading-relaxed">
+    현대적인 웹 기술 스택과 직관적인 인터페이스 설계에 열정을 가진 풀스택 개발자입니다. 복잡한 문제를 명쾌하고 우아한 디지털 제품으로 구체화합니다.
+  </p>
+
+  <!-- Action Buttons with Expanded Padding -->
+  <div class="flex flex-wrap items-center gap-4 pt-3">
+    <a class="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary text-on-primary font-headline-sm text-[16px] font-semibold shadow-md hover:bg-secondary hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300" href="#projects">
+      <span class="">프로젝트 보러가기</span>
+      <span class="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+    </a>
+    <a class="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-surface-container-lowest text-on-surface font-headline-sm text-[16px] font-semibold shadow-sm hover:bg-surface-container-low hover:text-primary transition-all duration-300" href="#contact">
+      <span class="material-symbols-outlined text-[20px] text-primary">chat_bubble</span>
+      <span class="">연락하기</span>
+    </a>
+  </div>
+
+  <!-- Key Metrics & Experience Stats Ticker -->
+  <div class="pt-6 w-full">
+    <div class="grid grid-cols-3 gap-6 bg-surface-container-low/80 rounded-2xl p-6 md:p-8 backdrop-blur-sm shadow-sm">
+      <div class="flex flex-col">
+        <span class="font-label-md text-[13px] text-primary uppercase font-bold tracking-wider">Experience</span>
+        <span class="font-headline-lg text-[28px] md:text-[32px] text-on-surface font-bold mt-1">4+ Years</span>
+        <span class="font-body-sm text-[14px] text-on-surface-variant mt-0.5">Production &amp; Scale</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-label-md text-[13px] text-primary uppercase font-bold tracking-wider">Delivered</span>
+        <span class="font-headline-lg text-[28px] md:text-[32px] text-on-surface font-bold mt-1">15+ Projects</span>
+        <span class="font-body-sm text-[14px] text-on-surface-variant mt-0.5">Web Apps &amp; SaaS</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-label-md text-[13px] text-primary uppercase font-bold tracking-wider">Quality Rate</span>
+        <span class="font-headline-lg text-[28px] md:text-[32px] text-on-surface font-bold mt-1">100%</span>
+        <span class="font-body-sm text-[14px] text-on-surface-variant mt-0.5">Client Satisfaction</span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Right Hero Mockup Card & Profile Composition (5 Cols) -->
+<div class="lg:col-span-5 relative flex flex-col items-center justify-center">
+  <!-- Ambient background glow behind portrait -->
+  <div class="absolute -inset-4 bg-gradient-to-tr from-primary/10 via-primary-container/15 to-transparent rounded-3xl blur-2xl -z-10"></div>
+
+  <!-- Main Portrait Photo Container -->
+  <div class="relative w-full max-w-[440px] aspect-[4/5] rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest transition-transform duration-500 hover:scale-[1.01]">
+    <img class="w-full h-full object-cover" alt="Modern professional portrait of Alex Minseo Kim in a minimalist studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0RfGikyEIU_KYaeLqTlaE10Z91X-FiiHRfyqf5tUHEG6cVza6pa7sc-B0Alc8rY63mCv0IDcwYRnEZwG4G5UxuHaXBCeBuUiI0PWaCnD5poS0TdYdSkFpzASrhgxNqIavKa99UeQsR7Py-sLab1P5iDp1ZqAwKMZhYAHWK7Q-Ojyic7G4O_3xN92z4jl42i4r9EuIT4OMpn4MMV6LB0hRxEgyCaup5TZml7MKLPjciXxpTXHWtvZ8">
+    <div class="absolute inset-0 bg-gradient-to-t from-on-background/30 via-transparent to-transparent pointer-events-none"></div>
+  </div>
+
+  <!-- Floating Top Badge: Available for work -->
+  <div class="absolute top-6 -left-4 sm:-left-6 bg-surface-container-lowest/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-xl flex items-center gap-2.5 z-10 animate-fade-in hover:shadow-2xl transition-all">
+    <span class="relative flex h-3 w-3">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+    </span>
+    <div class="flex flex-col">
+      <span class="font-label-sm text-[12px] text-primary font-bold tracking-wide uppercase">Status</span>
+      <span class="font-headline-sm text-[14px] text-on-surface font-semibold">Available for work</span>
+    </div>
+  </div>
+
+  <!-- Floating Bottom Badge: Full-Stack & UI/UX Craftsman -->
+  <div class="absolute -bottom-5 right-2 sm:-right-4 bg-surface-container-lowest/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-xl flex items-center gap-3.5 z-10 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+    <div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shadow-sm flex-shrink-0">
+      <span class="material-symbols-outlined text-[22px]">devices</span>
+    </div>
+    <div class="flex flex-col min-w-0">
+      <span class="font-headline-sm text-[15px] text-on-surface font-bold leading-tight">Full-Stack &amp; UI/UX</span>
+      <span class="font-label-sm text-[12px] text-outline mt-0.5">Modern Web Architecture</span>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+</div>
+<!-- TECH STACK & COMPETENCY MARQUEE RIBBON -->
+<section class="w-full bg-surface-container-low py-8 shadow-sm">
+<div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-center gap-2 flex-shrink-0">
+<span class="material-symbols-outlined text-primary text-[20px]">stacks</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold tracking-wider uppercase">CORE EXPERTISE</span>
+</div>
+<!-- Interactive Tech Badges List -->
+<div class="flex flex-wrap items-center gap-2.5">
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            Next.js 14
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            React Server Components
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            TypeScript Enterprise
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            Tailwind CSS
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            Figma Design Systems
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            PostgreSQL &amp; Prisma
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface shadow-sm font-label-sm text-label-sm hover:text-primary transition-colors cursor-default">
+            Node.js / Bun
+          </span>
+<span class="px-3.5 py-1.5 rounded-full bg-primary-fixed text-primary font-bold shadow-sm font-label-sm text-label-sm cursor-default">
+            Full-Stack Agile
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- FEATURED PROJECTS SHOWCASE -->
+<section class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin py-24 w-full" id="projects"><!-- Section Header with Increased Typographic Scale & Spacing -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+  <div class="space-y-3">
+    <div class="flex items-center gap-2.5">
+      <span class="font-label-sm text-[13px] text-primary font-bold uppercase tracking-widest">SELECTED WORK</span>
+      <span class="w-10 h-[2px] bg-primary"></span>
+    </div>
+    <h2 class="font-headline-lg text-[32px] md:text-[40px] text-on-surface tracking-tight font-bold">
+      주요 프로젝트 및 솔루션
+    </h2>
+    <p class="font-body-lg text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
+      실제 비즈니스 문제를 해결하고 사용자 중심의 높은 인터랙션 경험을 구현한 대표 작업물입니다.
+    </p>
+  </div>
+  <a class="inline-flex items-center gap-2 font-headline-sm text-[16px] text-primary font-semibold hover:underline group flex-shrink-0" href="#">
+    <span class="">모든 아카이브 살펴보기</span>
+    <span class="material-symbols-outlined text-[20px] group-hover:translate-x-1.5 transition-transform">east</span>
+  </a>
+</div>
+
+<!-- 3-Column Balanced Horizontal Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <!-- Project Card 1: NovaMetric -->
+  <div class="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col group hover:-translate-y-1.5">
+    <div class="relative w-full h-60 overflow-hidden bg-surface-container">
+      <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="NovaMetric SaaS Analytics Dashboard UI" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV1jvOqWfrROmYEkxoNj19PifL7xU-YiCpfPXfPmAWJ59ryrru8PfQTp3cD78IObsuXSmWI7VSG-EpyMPhrure0JaOt4INxf63Rd9GnVvMYM6s0gYfqqGd5POT7IWBUUZOy_CLED_kyyXvJuCqOdwAGtZ6JMUkjWxD_b9mzTEExfHW987uBQHbLKBhMa3hyunInrbq_1TaRJfXCY6j5VHLxEJlD5xdX7G3nH0k3Qcv46NpNATAZlMD">
+      <div class="absolute top-4 left-4">
+        <span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-[12px] font-semibold shadow-sm">
+          SaaS B2B Platform
+        </span>
+      </div>
+    </div>
+    <div class="p-7 flex flex-col flex-grow justify-between space-y-6">
+      <div class="space-y-3">
+        <div class="flex items-center gap-2 text-outline font-label-sm text-[12px]">
+          <span class="">2024 • Web App</span>
+          <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+          <span class="text-primary font-medium">99.9% Test Coverage</span>
+        </div>
+        <h3 class="font-headline-sm text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+          NovaMetric: 실시간 로그 분석 플랫폼
+        </h3>
+        <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
+          수백만 건의 서버 트래픽 데이터를 지연 없이 가시화하는 대시보드 솔루션. WebGL 최적화로 렌더링 속도 400% 향상.
+        </p>
+      </div>
+      <div class="space-y-4 pt-2 border-t border-surface-container-low">
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">React 18</span>
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">TypeScript</span>
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">WebSockets</span>
+        </div>
+        <div class="flex items-center justify-between pt-1">
+          <a class="inline-flex items-center gap-1 font-headline-sm text-[14px] text-primary font-semibold hover:underline" href="#">
+            <span class="">자세히 보기 / 케이스 스터디</span>
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+          </a>
+          <a class="text-on-surface-variant hover:text-primary font-label-sm text-[13px] flex items-center gap-1 transition-colors" href="#">
+            <span class="material-symbols-outlined text-[16px]">code</span>
+            <span class="">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Card 2: PentaPay -->
+  <div class="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col group hover:-translate-y-1.5">
+    <div class="relative w-full h-60 overflow-hidden bg-surface-container">
+      <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="PentaPay Fintech payments application mockup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWGd_9gdgbbx1NFUbEPvSZJoTYko_JCT2roFyStjngKIDCQ6NkikyheHbsNVoM1J8r1BNqiLuI5Mh99kBziBak-nzVXU51c7UyRBaGhovBG60Fcj9kb6xJOQX4X0Pb6TmY3c9Pdyr92QIXTIEC5RuwhekaWcjZphAsTPPKoqvKXNwrYQ_EO4J81K3990SZ4q0RNWTzzXX5bRuCvFGMR3Ruyn0GmzoiZI5E9xr17d-W-BtEvZQ0wL1O">
+      <div class="absolute top-4 left-4">
+        <span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-[12px] font-semibold shadow-sm">
+          Fintech &amp; Payment
+        </span>
+      </div>
+    </div>
+    <div class="p-7 flex flex-col flex-grow justify-between space-y-6">
+      <div class="space-y-3">
+        <div class="flex items-center gap-2 text-outline font-label-sm text-[12px]">
+          <span class="">2024 • Mobile &amp; Web</span>
+          <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+          <span class="text-primary font-medium">Global Settlement</span>
+        </div>
+        <h3 class="font-headline-sm text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+          PentaPay: 간편 결제 및 정산 시스템
+        </h3>
+        <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
+          복잡한 다중 정산 수수료 체계를 3단계 간결한 UI 인터랙션으로 축약하여 사용자 이탈률을 28% 감소시켰습니다.
+        </p>
+      </div>
+      <div class="space-y-4 pt-2 border-t border-surface-container-low">
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">Next.js</span>
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">Zustand</span>
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">Stripe API</span>
+        </div>
+        <div class="flex items-center justify-between pt-1">
+          <a class="inline-flex items-center gap-1 font-headline-sm text-[14px] text-primary font-semibold hover:underline" href="#">
+            <span class="">자세히 보기 / 케이스 스터디</span>
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+          </a>
+          <a class="text-on-surface-variant hover:text-primary font-label-sm text-[13px] flex items-center gap-1 transition-colors" href="#">
+            <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+            <span class="">Live Demo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Card 3: Aura & Token Engine -->
+  <div class="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col group hover:-translate-y-1.5">
+    <div class="relative w-full h-60 overflow-hidden bg-gradient-to-br from-primary-container/20 via-surface-container to-surface-variant/40 flex items-center justify-center p-6">
+      <div class="w-20 h-20 rounded-2xl bg-surface-container-lowest shadow-lg flex items-center justify-center text-primary group-hover:scale-110 transition-transform duration-500">
+        <span class="material-symbols-outlined text-[44px]">palette</span>
+      </div>
+      <div class="absolute top-4 left-4">
+        <span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-[12px] font-semibold shadow-sm">
+          Open Source &amp; Tooling
+        </span>
+      </div>
+    </div>
+    <div class="p-7 flex flex-col flex-grow justify-between space-y-6">
+      <div class="space-y-3">
+        <div class="flex items-center gap-2 text-outline font-label-sm text-[12px]">
+          <span class="">2024 • Developer Tools</span>
+          <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+          <span class="text-primary font-medium">GitHub 1.2k Stars</span>
+        </div>
+        <h3 class="font-headline-sm text-[22px] text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+          Design Token Generator &amp; CLI
+        </h3>
+        <p class="font-body-md text-[15px] text-on-surface-variant leading-relaxed">
+          Figma Variables와 Tailwind CSS 설정을 즉시 동기화해 디자인-엔지니어링 간 프로덕션 핸드오프 시간을 단축하는 CLI 도구.
+        </p>
+      </div>
+      <div class="space-y-4 pt-2 border-t border-surface-container-low">
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">Node.js</span>
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">Figma API</span>
+          <span class="px-2.5 py-1 rounded-md bg-surface-container-low text-primary font-label-sm text-[12px]">TypeScript</span>
+        </div>
+        <div class="flex items-center justify-between pt-1">
+          <a class="inline-flex items-center gap-1 font-headline-sm text-[14px] text-primary font-semibold hover:underline" href="#">
+            <span class="">자세히 보기 / 케이스 스터디</span>
+            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+          </a>
+          <a class="text-on-surface-variant hover:text-primary font-label-sm text-[13px] flex items-center gap-1 transition-colors" href="#">
+            <span class="material-symbols-outlined text-[16px]">code</span>
+            <span class="">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></section>
+<!-- PHILOSOPHY / HOW I WORK SECTION -->
+<section class="w-full bg-surface-container py-24 md:py-28">
+  <div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <div class="lg:col-span-5 space-y-6">
+        <div class="flex items-center gap-2.5">
+          <span class="font-label-sm text-[13px] text-primary font-bold uppercase tracking-wider">DEV PHILOSOPHY</span>
+          <span class="w-10 h-[2px] bg-primary"></span>
+        </div>
+        <h2 class="font-headline-lg text-[32px] md:text-[40px] text-on-surface tracking-tight font-bold leading-tight">
+          기술적 완결성과<br>감성적 사용성의 조화
+        </h2>
+        <p class="font-body-lg text-[17px] text-on-surface-variant leading-relaxed">
+          화려하기만 한 디자인이나, 복잡하기만 한 백엔드 코드는 사용자를 만족시킬 수 없습니다. 저는 기획부터 인터페이스 디자인, 그리고 견고한 프로덕션 코드까지 유기적으로 연결되는 프로세스를 지향합니다.
+        </p>
+        <div class="space-y-4 pt-2">
+          <div class="flex items-start gap-3.5">
+            <span class="material-symbols-outlined text-primary text-[24px] mt-0.5">check_circle</span>
+            <div>
+              <h4 class="font-headline-sm text-[18px] text-on-surface font-semibold">데이터 기반의 설계</h4>
+              <p class="font-body-md text-[15px] text-on-surface-variant mt-0.5 leading-relaxed">추측이 아닌 사용자 행동 데이터와 직관적인 휴리스틱을 근거로 화면을 구성합니다.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3.5">
+            <span class="material-symbols-outlined text-primary text-[24px] mt-0.5">check_circle</span>
+            <div>
+              <h4 class="font-headline-sm text-[18px] text-on-surface font-semibold">유지보수 가능한 모듈형 코드</h4>
+              <p class="font-body-md text-[15px] text-on-surface-variant mt-0.5 leading-relaxed">팀원 누구나 쉽게 이해하고 재사용할 수 있는 탄탄한 클린 아키텍처를 작성합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div class="bg-surface-container-lowest p-7 rounded-2xl shadow-sm flex flex-col justify-between h-60 hover:shadow-md transition-all">
+          <span class="material-symbols-outlined text-primary text-[36px]">speed</span>
+          <div>
+            <span class="font-display-hero text-[36px] text-primary font-bold">100</span>
+            <p class="font-headline-sm text-[18px] text-on-surface font-bold mt-1">Lighthouse 점수 지향</p>
+            <p class="font-body-sm text-[14px] text-on-surface-variant mt-1.5 leading-normal">접근성, 성능, SEO 최적화를 기본값으로 릴리즈합니다.</p>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest p-7 rounded-2xl shadow-sm flex flex-col justify-between h-60 hover:shadow-md transition-all">
+          <span class="material-symbols-outlined text-primary text-[36px]">devices</span>
+          <div>
+            <span class="font-display-hero text-[36px] text-primary font-bold">Fluid</span>
+            <p class="font-headline-sm text-[18px] text-on-surface font-bold mt-1">완벽한 반응형 UX</p>
+            <p class="font-body-sm text-[14px] text-on-surface-variant mt-1.5 leading-normal">모바일 화면부터 울트라와이드 모니터까지 자연스러운 플로우 제공.</p>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest p-7 rounded-2xl shadow-sm flex flex-col justify-between h-60 hover:shadow-md transition-all">
+          <span class="material-symbols-outlined text-primary text-[36px]">chevron_forward</span>
+          <div>
+            <span class="font-display-hero text-[36px] text-primary font-bold">Zero</span>
+            <p class="font-headline-sm text-[18px] text-on-surface font-bold mt-1">클라우드 병목 제로화</p>
+            <p class="font-body-sm text-[14px] text-on-surface-variant mt-1.5 leading-normal">엣지 캐싱과 서버 사이드 렌더링을 최적 배분합니다.</p>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest p-7 rounded-2xl shadow-sm flex flex-col justify-between h-60 hover:shadow-md transition-all">
+          <span class="material-symbols-outlined text-primary text-[36px]">handshake</span>
+          <div>
+            <span class="font-display-hero text-[36px] text-primary font-bold">Collab</span>
+            <p class="font-headline-sm text-[18px] text-on-surface font-bold mt-1">기획·비즈니스 친화적 소통</p>
+            <p class="font-body-sm text-[14px] text-on-surface-variant mt-1.5 leading-normal">기술 용어를 넘어 프로덕트의 궁극적 비즈니스 목표에 집중합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CONTACT & ENGAGEMENT CTA SECTION -->
+<section class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin py-24 w-full" id="contact">
+<div class="relative bg-gradient-to-br from-primary to-secondary rounded-3xl p-8 sm:p-14 text-on-primary overflow-hidden shadow-xl">
+<!-- Ambient light effect -->
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-2xl space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-on-primary/10 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-on-primary"></span>
+<span class="font-label-sm text-label-sm font-semibold tracking-wider uppercase">LET'S BUILD SOMETHING TOGETHER</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold tracking-tight text-on-primary">
+          새로운 프로젝트나 협업 기회가 있으신가요?
+        </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed opacity-95">
+          스타트업 MVP 기획 및 개발, 대규모 웹 애플리케이션 리팩토링, 디자인 시스템 구축 등 기술과 감성이 필요한 곳이라면 언제든 편하게 이야기 나눠보세요.
+        </p>
+<div class="flex flex-wrap items-center gap-4 pt-4">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-primary font-body-md text-body-md font-semibold shadow-lg hover:bg-surface-container-low transition-all" href="mailto:hello@alex.dev">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span class="">이메일 보내기 (hello@alex.dev)</span>
+</a>
+<button class="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-on-primary/10 text-on-primary font-body-md text-body-md hover:bg-on-primary/20 backdrop-blur-md transition-all" id="btn-copy-email">
+<span class="material-symbols-outlined text-[20px]">content_copy</span>
+<span id="copy-text" class="">이메일 복사하기</span>
+</button>
+</div>
+<!-- Social links row inside card -->
+<div class="pt-6 flex items-center gap-6 text-primary-fixed font-label-sm text-label-sm">
+<span class="">• 응답 평균 24시간 이내</span>
+<span class="">• 서울/리모트 협업 가능</span>
+<span class="">• 국/영문 협업 지원</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive script for copy action -->
+<script>
+    (function() {
+      const copyBtn = document.getElementById('btn-copy-email');
+      const copyText = document.getElementById('copy-text');
+      if (copyBtn && copyText) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText('hello@alex.dev').then(() => {
+            const original = copyText.textContent;
+            copyText.textContent = '복사 완료!';
+            setTimeout(() => {
+              copyText.textContent = original;
+            }, 2000);
+          }).catch(() => {
+            copyText.textContent = 'hello@alex.dev';
+          });
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin py-space-xl"><div class="flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-xs"><span class="font-label-md text-label-md text-on-surface font-semibold">ALEX.PORTFOLIO</span><span class="font-label-sm text-label-sm text-outline">© 2025</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Crafting precision web architectures &amp; computational digital products.</p></div><div class="flex items-center gap-space-lg"><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs font-body-sm text-body-sm" href="https://github.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">code</span><span class="font-label-sm text-label-sm">GitHub</span></a><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs font-body-sm text-body-sm" href="https://linkedin.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">work</span><span class="font-label-sm text-label-sm">LinkedIn</span></a><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs font-body-sm text-body-sm" href="https://twitter.com" rel="noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">alternate_email</span><span class="font-label-sm text-label-sm">Twitter</span></a><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs font-body-sm text-body-sm" href="mailto:hello@alex.dev"><span class="material-symbols-outlined text-[18px]">mail</span><span class="font-label-sm text-label-sm">Email</span></a></div><a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" href="#"><span class="font-label-sm text-label-sm">Back to top</span><span class="material-symbols-outlined text-[18px]">arrow_upward</span></a></div></div></footer>
+
+</body></html>
